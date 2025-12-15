@@ -13,6 +13,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <title>Как стать лучшим на Олимпиаде</title>
     <style>
+	.next {
+		background-color: #0ff;
+		width: 100px;
+		height: 50px;
+	}
+	.next:hover {
+		animation: forb 3s infinite;
+	}
+	@keyframes forb {
+		0% { transform: scale(1.0);}
+		50% { transform: scale(1.2);}
+		100% { transform: scale(1.0);}
+	}
         body {
 		background-color: black;
             font-family: Arial, sans-serif;
@@ -63,15 +76,18 @@ color: white;
   }
 }
 
-  *  {
+  section  {
 overflow: auto;
 	}
     </style>
 </head>
 <body>
-    <header>
+    <header><a href="https://otieu.com/4/10328747">
+		<button class="next">Next</button>
+	</a>
         <h1>Как стать лучшим на Олимпиаде</h1>
         <p>Путеводитель к олимпийскому успеху</p>
+	
     </header>
     <section id="obuchenie">
         <h2>План обучения</h2>
@@ -1581,7 +1597,9 @@ console.log("Порядок обхода BFS, начиная с 'A':", traversal
         </li>
     </ul>
 </section>
-
+<a href="https://otieu.com/4/10328747">
+	<button class="next">Next</button>
+</a>
 </body>
 </html>
 
